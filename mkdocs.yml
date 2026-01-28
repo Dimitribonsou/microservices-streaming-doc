@@ -1,12 +1,40 @@
 site_name: Documentation Microservices Streaming
+site_description: Documentation technique d'une architecture microservices pour une plateforme de streaming
+site_author: Votre Nom
+
 theme:
   name: material
-nav:
-  - Introduction: docs/01-introduction.md
-  - Contexte: docs/02-contexte.md
-  - Architecture: docs/03-architecture.md
-  - Fonctionnement: docs/04-fonctionnement.md
-  - Procédure: docs/05-procedure.md
-  - Annexes: docs/06-annexes.md
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: dark
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+
 plugins:
   - search
+
+nav:
+  - Introduction: '01-introduction.md'
+  - Contexte: '02-contexte.md'
+  - Architecture: '03-architecture.md'
+  - Fonctionnement: '04-fonctionnement.md'
+  - Procédure: '05-procedure.md'
+  - Annexes: '06-annexes.md'
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - extra
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
