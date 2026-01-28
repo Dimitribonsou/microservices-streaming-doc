@@ -1,6 +1,6 @@
 site_name: Documentation Microservices Streaming
 site_description: Documentation technique d'une architecture microservices pour une plateforme de streaming
-site_author: Votre Nom
+site_author: Dimitri Bonsou
 
 theme:
   name: material
@@ -20,6 +20,7 @@ theme:
 
 plugins:
   - search
+  - mermaid2
 
 nav:
   - Introduction: '01-introduction.md'
@@ -33,6 +34,7 @@ markdown_extensions:
   - admonition
   - codehilite
   - extra
+  - mermaid2
   - toc:
       permalink: true
   - pymdownx.superfences
