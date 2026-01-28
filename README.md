@@ -5,8 +5,8 @@ date: "28/01/2026"
 version: "1.0.0"
 status: "En cours"
 last_update: "28/01/2026"
-repository: "https://github.com/votre-user/microservices-streaming-doc"
-keywords: ["microservices", "streaming", "kubernetes", "docker"]
+repository: "https://github.com/Dimitribonsou/microservices-streaming-doc"
+keywords: ["microservices", "streaming", "MkDocs", "Docker","Github Action"]
 ---
 
 # Documentation Technique
