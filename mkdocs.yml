@@ -1,0 +1,12 @@
+site_name: Documentation Microservices Streaming
+theme:
+  name: material
+nav:
+  - Introduction: docs/01-introduction.md
+  - Contexte: docs/02-contexte.md
+  - Architecture: docs/03-architecture.md
+  - Fonctionnement: docs/04-fonctionnement.md
+  - Procédure: docs/05-procedure.md
+  - Annexes: docs/06-annexes.md
+plugins:
+  - search
