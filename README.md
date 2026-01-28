@@ -1,10 +1,10 @@
 ---
 title: "Documentation Architecture Microservices - Plateforme de Streaming"
 author: "Dimitri bonsou"
-date: "2023-10-01"
+date: "28/01/2026"
 version: "1.0.0"
 status: "En cours"
-last_update: "28-01-26"
+last_update: "28/01/2026"
 repository: "https://github.com/votre-user/microservices-streaming-doc"
 keywords: ["microservices", "streaming", "kubernetes", "docker"]
 ---
